@@ -3,7 +3,7 @@ dev:
     script:
       - cnpm install
   - name: '@nat/freedom-middleware-webpack4'
-    version: 
+    version: 3.0.0
     before: 
     args:
       port: 3333
