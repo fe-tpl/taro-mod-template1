@@ -21,7 +21,9 @@ export default class TaroTpl extends Component {
 
   render() {
     return (
-      <View onClick={this.onClickHandle}></View>
+      <View onClick={this.onClickHandle}>
+        {this.state.message}
+      </View>
     )
   }
 }
