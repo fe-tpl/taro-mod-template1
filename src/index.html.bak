@@ -18,7 +18,8 @@
     ${window_module_data} 
   </script>
   <div class="freedom-module-wrapper ${module-name}">
-
+    <input type="hidden" class="schema-data-${module-name}" value="{}"/>
+    <div class="${module-name}"></div>
   </div>
 </body>
 
