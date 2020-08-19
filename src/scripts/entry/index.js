@@ -8,7 +8,7 @@ class TaroModTpl {
     this.render();
   }
   render() {
-    Nerv.render(<Comp mock={this.data} />, this.moduleWrapperEle.children[1]);
+    Nerv.render(<Comp mockData={this.data} />, this.moduleWrapperEle.children[1]);
   }
 }
 let moduleEles = document.querySelectorAll(".freedom-module-wrapper${module-name}");
