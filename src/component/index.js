@@ -21,11 +21,7 @@ export default class TaroTpl extends Component {
 
   render() {
     return (
-      <View className="${module-name}">
-        <View onClick={this.onClickHandle}>
-
-        </View>
-      </View>
+      <View onClick={this.onClickHandle}></View>
     )
   }
 }
