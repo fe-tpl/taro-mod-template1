@@ -11,7 +11,7 @@ class TaroModTpl {
     Nerv.render(<Comp mock={this.data} />, this.moduleWrapperEle.children[1]);
   }
 }
-let moduleEles = document.querySelectorAll(".freedom-module-wrapper{module-name}");
+let moduleEles = document.querySelectorAll(".freedom-module-wrapper${module-name}");
 for (var i = 0; i < moduleEles.length; i++) {
   new TaroModTpl(moduleEles[i]);
 }
