@@ -1,6 +1,5 @@
 import "./index.less";
 import Nerv, { Component } from 'nervjs'; // 这句话不允许做任何改动
-// import Taro, { Component } from "@tarojs/taro"; // 这句话不允许任何改动
 import { View } from "@tarojs/components";
 export default class TaroTpl extends Component {
   constructor(props) {
