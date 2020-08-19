@@ -15,7 +15,15 @@ export default class TaroTpl extends Component {
   }
 
   onClickHandle = async () => {
-
+    // todo 若一个模块需要在h5环境下使用，某些操作需要判断环境变量来区分，
+    // todo 通过Taro.getEnv()方法来获取环境
+    if (Taro.getEnv() == "WEB") {
+      window.location.href = "https://www.aliyun.com";
+    } else {
+      Taro.navigateTo({
+        url: "www.aliyun.com"
+      })
+    }
   }
 
   render() {
