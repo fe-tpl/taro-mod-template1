@@ -1,5 +1,6 @@
 import "./index.less";
 import Nerv, { Component } from 'nervjs'; // 这句话不允许做任何改动
+import Taro from "@tarojs/taro"; // 这句话不允许做任何改动
 import { View } from "@tarojs/components";
 export default class TaroTpl extends Component {
   constructor(props) {
@@ -28,8 +29,14 @@ export default class TaroTpl extends Component {
 
   render() {
     return (
-      <View onClick={this.onClickHandle}>
-        {this.state.message}
+      <View className="freedom-module-wrapper">
+        <View className="${module-name}">
+          {/* <>---在这里书写组件内容---begin</> */}
+          <View onClick={this.onClickHandle}>
+            {this.state.message}
+          </View>
+          {/* <>---在这里书写组件内容---end</> */}
+        </View>
       </View>
     )
   }
