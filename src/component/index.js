@@ -1,6 +1,6 @@
 import "./index.less";
 import Nerv, { Component } from 'nervjs'; // 这句话不允许做任何改动
-import Taro from "@tarojs/taro"; // 这句话不允许做任何改动
+const Taro = require("@tarojs/taro-h5"); // 这句话不允许做任何改动
 import { View } from "@tarojs/components";
 
 const baseRate = 10 / 750;
