@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@tarojs/components": "2.2.9",
-    "@tarojs/taro": "3.0.5",
+    "@tarojs/taro": "2.2.9",
     "@tarojs/taro-h5": "2.2.9",
     "nervjs": "^1.5.5"
   },
