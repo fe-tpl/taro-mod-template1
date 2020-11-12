@@ -24,6 +24,7 @@ build:
     version: 
     before: 
     args:
+      isChunk: false
       projectID: ${projectID}
       env: prod
       publicPath: //cdn.51talk.com/51talk/bms-mod/${projectName}/
